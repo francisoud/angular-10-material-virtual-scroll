@@ -1,0 +1,18 @@
+.example-viewport {
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  overflow-x: hidden;
+}
+
+.example-item {
+  height: 50px;
+}
+
+.compagny {
+  margin: 2px 10px 2px 10px;
+  border: 1px solid;
+  max-width: 40px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
