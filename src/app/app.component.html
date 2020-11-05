@@ -2,7 +2,8 @@
 <a href="https://material.angular.io/cdk/scrolling/overview">Material doc</a>
 
 <p>
-	<cdk-virtual-scroll-viewport itemSize="50" class="example-viewport" [style.height.px]="height" autosize>
+	<!-- [style.height.px]="height" autosize -->
+	<cdk-virtual-scroll-viewport itemSize="50" class="example-viewport" >
 		<div *cdkVirtualFor="let item of items" class="example-item">
 			<span>{{item.title}}</span>
 			<span *ngFor="let company of item.companies" class="compagny">{{company}}</span>
